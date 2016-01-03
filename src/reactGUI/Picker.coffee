@@ -1,6 +1,6 @@
 React = require './React-shim'
 
-ClearButton = React.createFactory require './ClearButton'
+SaveButton = React.createFactory require './SaveButton'
 UndoRedoButtons = React.createFactory require './UndoRedoButtons'
 ZoomButtons = React.createFactory require './ZoomButtons'
 
@@ -49,7 +49,7 @@ Picker = React.createClass
         ColorPickers({lc: @props.lc})
         UndoRedoButtons({lc, imageURLPrefix})
         ZoomButtons({lc, imageURLPrefix})
-        ClearButton({lc})
+        SaveButton({lc})
       )
     )
 
