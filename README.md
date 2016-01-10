@@ -1,3 +1,8 @@
+This fork of Literally Canvas removes the "Clear" button from the toolbar and
+replaces it with a "Save" button, used in
+<https://github.com/pmezard/gribouillis>.
+
+
 Literally Canvas v0.4.11
 ========================
 
